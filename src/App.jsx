@@ -15,6 +15,10 @@ const App = () => {
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>
+
+        <footer className="border-t border-gray-800 px-6 py-6 text-center text-gray-400">
+          Loja Gamer — 2026
+        </footer>
       </div>
       
     </Router>
